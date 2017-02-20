@@ -1,0 +1,1548 @@
+TCellOutline
+v7
+r0
+t503087867.643255
+cCheck dependencies
+cProcessInfoPlistFile /Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Info.plist CellOutline-Info.plist
+cCopyStringsFile /Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/johnpresley/CocoaBook/CellOutline/English.lproj/MainMenu.xib
+cCompileXIB /Users/johnpresley/CocoaBook/CellOutline/COMainWindow.xib
+cCpResource build/Debug/CellOutline.app/Contents/Resources/Tip47.jpg Tip47.jpg
+cCompileXIB /Users/johnpresley/CocoaBook/CellOutline/CellView.xib
+cCpResource build/Debug/CellOutline.app/Contents/Resources/galt_noco_a_proj.jpg galt_noco_a_proj.jpg
+cCpResource build/Debug/CellOutline.app/Contents/Resources/galt_noco_b_proj.jpg galt_noco_b_proj.jpg
+cCpResource build/Debug/CellOutline.app/Contents/Resources/galt_noco_c_proj.jpg galt_noco_c_proj.jpg
+cCpResource build/Debug/CellOutline.app/Contents/Resources/galt_noco_d_proj.jpg galt_noco_d_proj.jpg
+cCpResource build/Debug/CellOutline.app/Contents/Resources/galt_noco_e_proj.jpg galt_noco_e_proj.jpg
+cCpResource build/Debug/CellOutline.app/Contents/Resources/galt_noco_f_proj.jpg galt_noco_f_proj.jpg
+cCpResource build/Debug/CellOutline.app/Contents/Resources/galt_noco_g_proj.jpg galt_noco_g_proj.jpg
+cCpResource build/Debug/CellOutline.app/Contents/Resources/galt_noco_h_proj.jpg galt_noco_h_proj.jpg
+cCpResource build/Debug/CellOutline.app/Contents/Resources/galt_noco_i_proj.jpg galt_noco_i_proj.jpg
+cCpResource build/Debug/CellOutline.app/Contents/Resources/galt_noco_j_proj.jpg galt_noco_j_proj.jpg
+cCpResource build/Debug/CellOutline.app/Contents/Resources/rab7a_proj.jpg rab7a_proj.jpg
+cCpResource build/Debug/CellOutline.app/Contents/Resources/rab7b_proj.jpg rab7b_proj.jpg
+cCpResource build/Debug/CellOutline.app/Contents/Resources/rab7c_proj.jpg rab7c_proj.jpg
+cCpResource build/Debug/CellOutline.app/Contents/Resources/rab7d_proj.jpg rab7d_proj.jpg
+cCpResource build/Debug/CellOutline.app/Contents/Resources/rab7e_proj.jpg rab7e_proj.jpg
+cCpResource build/Debug/CellOutline.app/Contents/Resources/rab7f_proj.jpg rab7f_proj.jpg
+cCpResource build/Debug/CellOutline.app/Contents/Resources/rab7g_proj.jpg rab7g_proj.jpg
+cCpResource build/Debug/CellOutline.app/Contents/Resources/rab7h_proj.jpg rab7h_proj.jpg
+cCpResource build/Debug/CellOutline.app/Contents/Resources/rab7i_proj.jpg rab7i_proj.jpg
+cCpResource build/Debug/CellOutline.app/Contents/Resources/rab7j_proj.jpg rab7j_proj.jpg
+cCpResource build/Debug/CellOutline.app/Contents/Resources/tip47a_proj.jpg tip47a_proj.jpg
+cCpResource build/Debug/CellOutline.app/Contents/Resources/tip47b_proj.jpg tip47b_proj.jpg
+cCpResource build/Debug/CellOutline.app/Contents/Resources/tip47c_proj.jpg tip47c_proj.jpg
+cCpResource build/Debug/CellOutline.app/Contents/Resources/tip47d_proj.jpg tip47d_proj.jpg
+cCpResource build/Debug/CellOutline.app/Contents/Resources/tip47e_proj.jpg tip47e_proj.jpg
+cCpResource build/Debug/CellOutline.app/Contents/Resources/tip47f_proj.jpg tip47f_proj.jpg
+cCpResource build/Debug/CellOutline.app/Contents/Resources/tip47g_proj.jpg tip47g_proj.jpg
+cCpResource build/Debug/CellOutline.app/Contents/Resources/tip47h_proj.jpg tip47h_proj.jpg
+cCpResource build/Debug/CellOutline.app/Contents/Resources/tip47i_proj.jpg tip47i_proj.jpg
+cCpResource build/Debug/CellOutline.app/Contents/Resources/tip47j_proj.jpg tip47j_proj.jpg
+cProcessPCH /var/folders/mt/mtr-q2fRHwKtog+hiX7YUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CellOutline_Prefix-gbmygihbwpgxmzbahhdnqddejzxm/CellOutline_Prefix.pch.gch CellOutline_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/main.o /Users/johnpresley/CocoaBook/CellOutline/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/CellOutlineAppDelegate.o /Users/johnpresley/CocoaBook/CellOutline/CellOutlineAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/COMainWindow.o /Users/johnpresley/CocoaBook/CellOutline/COMainWindow.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/CellView.o /Users/johnpresley/CocoaBook/CellOutline/CellView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/COImage.o /Users/johnpresley/CocoaBook/CellOutline/COImage.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/MacOS/CellOutline normal x86_64
+cTouch /Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A600B8400000000000013E6
+t1247808388
+s5094
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Quartz.framework/Headers/Quartz.h
+c000000004A1249D30000000000000124
+t1242712531
+s292
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Quartz.framework/Quartz
+c000000004D5A279100000000000036E0
+t1297754001
+s14048
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004B5FA877000000000000A5E0
+t1264560247
+s42464
+
+N/Users/johnpresley/CocoaBook/CellOutline/COImage.h
+c0000000058AB633B00000000000002B6
+t1487627067
+s694
+i<Cocoa/Cocoa.h>
+
+N/Users/johnpresley/CocoaBook/CellOutline/COImage.m
+c0000000058AB633B0000000000001241
+t1487627067
+s4673
+i<Foundation/Foundation.h>
+i<Cocoa/Cocoa.h>
+i"COImage.h"
+
+N/Users/johnpresley/CocoaBook/CellOutline/COMainWindow.h
+c0000000058AB633B0000000000000758
+t1487627067
+s1880
+i<Cocoa/Cocoa.h>
+i<Quartz/Quartz.h>
+i"COImage.h"
+
+N/Users/johnpresley/CocoaBook/CellOutline/COMainWindow.m
+c0000000058AB633B0000000000001472
+t1487627067
+s5234
+i<Cocoa/Cocoa.h>
+i<Foundation/Foundation.h>
+i"COMainWindow.h"
+i"CellView.h"
+
+N/Users/johnpresley/CocoaBook/CellOutline/COMainWindow.xib
+c00000000564AB4B3000000000001464B
+t1447736499
+s83531
+
+N/Users/johnpresley/CocoaBook/CellOutline/CellOutlineAppDelegate.h
+c0000000051740F47000000000000017A
+t1366560583
+s378
+i<Cocoa/Cocoa.h>
+i<Quartz/Quartz.h>
+i"COMainWindow.h"
+
+N/Users/johnpresley/CocoaBook/CellOutline/CellOutlineAppDelegate.m
+c00000000519811EE0000000000000293
+t1368920558
+s659
+i"CellOutlineAppDelegate.h"
+i"COMainWindow.h"
+
+N/Users/johnpresley/CocoaBook/CellOutline/CellOutline_Prefix.pch
+c000000005164C8B50000000000000099
+t1365559477
+s153
+i<Cocoa/Cocoa.h>
+
+N/Users/johnpresley/CocoaBook/CellOutline/CellView.h
+c0000000058AB62910000000000000170
+t1487626897
+s368
+i<Cocoa/Cocoa.h>
+i"COImage.h"
+
+N/Users/johnpresley/CocoaBook/CellOutline/CellView.m
+c0000000058AB633B0000000000000113
+t1487627067
+s275
+i"CellView.h"
+
+N/Users/johnpresley/CocoaBook/CellOutline/CellView.xib
+c00000000556A02D30000000000007356
+t1433010899
+s29526
+
+N/Users/johnpresley/CocoaBook/CellOutline/English.lproj/InfoPlist.strings
+c000000005164C8B5000000000000002D
+t1365559477
+s45
+
+N/Users/johnpresley/CocoaBook/CellOutline/English.lproj/MainMenu.xib
+c000000005164C8E0000000000002C004
+t1365559520
+s180228
+
+N/Users/johnpresley/CocoaBook/CellOutline/Tip47.jpg
+c000000004E7235340000000000018938
+t1316107572
+s100664
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/COImage.o
+t1471145691
+s43720
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/COMainWindow.o
+t1447736551
+s50820
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/CellOutline.LinkFileList
+c000000005569DE4A000000000000026F
+t1433001546
+s623
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/CellOutlineAppDelegate.o
+t1447736551
+s26060
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/CellView.o
+t1471145690
+s17408
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/main.o
+t1433001552
+s5008
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app
+t1471145691
+s102
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Info.plist
+t1366509712
+s1296
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/MacOS/CellOutline
+t1471145691
+s44488
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/PkgInfo
+t1366509712
+s8
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/COMainWindow.nib
+t1447736551
+s12746
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/CellView.nib
+t1433010903
+s1564
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1366509712
+s92
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/English.lproj/MainMenu.nib
+t1366509713
+s33597
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/Tip47.jpg
+t1367123025
+s100664
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/galt_noco_a_proj.jpg
+t1392865771
+s116133
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/galt_noco_b_proj.jpg
+t1392865771
+s74633
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/galt_noco_c_proj.jpg
+t1392865771
+s55398
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/galt_noco_d_proj.jpg
+t1392865771
+s55956
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/galt_noco_e_proj.jpg
+t1392865771
+s53898
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/galt_noco_f_proj.jpg
+t1392865771
+s65691
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/galt_noco_g_proj.jpg
+t1392865771
+s40571
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/galt_noco_h_proj.jpg
+t1392865771
+s46348
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/galt_noco_i_proj.jpg
+t1392865771
+s38937
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/galt_noco_j_proj.jpg
+t1392865771
+s106414
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/rab7a_proj.jpg
+t1392865771
+s129627
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/rab7b_proj.jpg
+t1392865771
+s89416
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/rab7c_proj.jpg
+t1392865771
+s92578
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/rab7d_proj.jpg
+t1392865771
+s116720
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/rab7e_proj.jpg
+t1392865771
+s51699
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/rab7f_proj.jpg
+t1392865771
+s155714
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/rab7g_proj.jpg
+t1392865771
+s103367
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/rab7h_proj.jpg
+t1392865771
+s137366
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/rab7i_proj.jpg
+t1392865771
+s130149
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/rab7j_proj.jpg
+t1392865771
+s44316
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/tip47a_proj.jpg
+t1392865771
+s144608
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/tip47b_proj.jpg
+t1392865771
+s102666
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/tip47c_proj.jpg
+t1392865771
+s98877
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/tip47d_proj.jpg
+t1392865771
+s169035
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/tip47e_proj.jpg
+t1392865771
+s81855
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/tip47f_proj.jpg
+t1392865771
+s99990
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/tip47g_proj.jpg
+t1392865771
+s92886
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/tip47h_proj.jpg
+t1392865771
+s73382
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/tip47i_proj.jpg
+t1392865771
+s136810
+
+N/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/tip47j_proj.jpg
+t1392865771
+s72461
+
+N/Users/johnpresley/CocoaBook/CellOutline/galt_noco_a_proj.jpg
+c00000000530570C3000000000001C5A5
+t1392865475
+s116133
+
+N/Users/johnpresley/CocoaBook/CellOutline/galt_noco_b_proj.jpg
+c00000000530570C50000000000012389
+t1392865477
+s74633
+
+N/Users/johnpresley/CocoaBook/CellOutline/galt_noco_c_proj.jpg
+c00000000530570C5000000000000D866
+t1392865477
+s55398
+
+N/Users/johnpresley/CocoaBook/CellOutline/galt_noco_d_proj.jpg
+c00000000530570C6000000000000DA94
+t1392865478
+s55956
+
+N/Users/johnpresley/CocoaBook/CellOutline/galt_noco_e_proj.jpg
+c00000000530570C6000000000000D28A
+t1392865478
+s53898
+
+N/Users/johnpresley/CocoaBook/CellOutline/galt_noco_f_proj.jpg
+c00000000530570C7000000000001009B
+t1392865479
+s65691
+
+N/Users/johnpresley/CocoaBook/CellOutline/galt_noco_g_proj.jpg
+c00000000530570C70000000000009E7B
+t1392865479
+s40571
+
+N/Users/johnpresley/CocoaBook/CellOutline/galt_noco_h_proj.jpg
+c00000000530570C8000000000000B50C
+t1392865480
+s46348
+
+N/Users/johnpresley/CocoaBook/CellOutline/galt_noco_i_proj.jpg
+c00000000530570C80000000000009819
+t1392865480
+s38937
+
+N/Users/johnpresley/CocoaBook/CellOutline/galt_noco_j_proj.jpg
+c00000000530570C90000000000019FAE
+t1392865481
+s106414
+
+N/Users/johnpresley/CocoaBook/CellOutline/main.m
+c0000000058AB630000000000000000FF
+t1487627008
+s255
+i<Cocoa/Cocoa.h>
+
+N/Users/johnpresley/CocoaBook/CellOutline/rab7a_proj.jpg
+c00000000530570CA000000000001FA5B
+t1392865482
+s129627
+
+N/Users/johnpresley/CocoaBook/CellOutline/rab7b_proj.jpg
+c00000000530570CB0000000000015D48
+t1392865483
+s89416
+
+N/Users/johnpresley/CocoaBook/CellOutline/rab7c_proj.jpg
+c00000000530570CC00000000000169A2
+t1392865484
+s92578
+
+N/Users/johnpresley/CocoaBook/CellOutline/rab7d_proj.jpg
+c00000000530570CD000000000001C7F0
+t1392865485
+s116720
+
+N/Users/johnpresley/CocoaBook/CellOutline/rab7e_proj.jpg
+c00000000530570CD000000000000C9F3
+t1392865485
+s51699
+
+N/Users/johnpresley/CocoaBook/CellOutline/rab7f_proj.jpg
+c00000000530570CE0000000000026042
+t1392865486
+s155714
+
+N/Users/johnpresley/CocoaBook/CellOutline/rab7g_proj.jpg
+c00000000530570CF00000000000193C7
+t1392865487
+s103367
+
+N/Users/johnpresley/CocoaBook/CellOutline/rab7h_proj.jpg
+c00000000530570CF0000000000021896
+t1392865487
+s137366
+
+N/Users/johnpresley/CocoaBook/CellOutline/rab7i_proj.jpg
+c00000000530570D0000000000001FC65
+t1392865488
+s130149
+
+N/Users/johnpresley/CocoaBook/CellOutline/rab7j_proj.jpg
+c00000000530570D0000000000000AD1C
+t1392865488
+s44316
+
+N/Users/johnpresley/CocoaBook/CellOutline/tip47a_proj.jpg
+c00000000530570D100000000000234E0
+t1392865489
+s144608
+
+N/Users/johnpresley/CocoaBook/CellOutline/tip47b_proj.jpg
+c00000000530570D3000000000001910A
+t1392865491
+s102666
+
+N/Users/johnpresley/CocoaBook/CellOutline/tip47c_proj.jpg
+c00000000530570D4000000000001823D
+t1392865492
+s98877
+
+N/Users/johnpresley/CocoaBook/CellOutline/tip47d_proj.jpg
+c00000000530570D5000000000002944B
+t1392865493
+s169035
+
+N/Users/johnpresley/CocoaBook/CellOutline/tip47e_proj.jpg
+c00000000530570D60000000000013FBF
+t1392865494
+s81855
+
+N/Users/johnpresley/CocoaBook/CellOutline/tip47f_proj.jpg
+c00000000530570D60000000000018696
+t1392865494
+s99990
+
+N/Users/johnpresley/CocoaBook/CellOutline/tip47g_proj.jpg
+c00000000530570D70000000000016AD6
+t1392865495
+s92886
+
+N/Users/johnpresley/CocoaBook/CellOutline/tip47h_proj.jpg
+c00000000530570D80000000000011EA6
+t1392865496
+s73382
+
+N/Users/johnpresley/CocoaBook/CellOutline/tip47i_proj.jpg
+c00000000530570D9000000000002166A
+t1392865497
+s136810
+
+N/Users/johnpresley/CocoaBook/CellOutline/tip47j_proj.jpg
+c00000000530570DA0000000000011B0D
+t1392865498
+s72461
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COImage.h
+c0000000054343F7900000000000002B9
+t1412710265
+s697
+i<Cocoa/Cocoa.h>
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COImage.m
+c00000000556757F6000000000000121F
+t1432836086
+s4639
+i<Foundation/Foundation.h>
+i<Cocoa/Cocoa.h>
+i"COImage.h"
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.h
+c0000000054334564000000000000075B
+t1412646244
+s1883
+i<Cocoa/Cocoa.h>
+i<Quartz/Quartz.h>
+i"COImage.h"
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m
+c000000005564B39600000000000013C0
+t1432662934
+s5056
+i<Cocoa/Cocoa.h>
+i<Foundation/Foundation.h>
+i"COMainWindow.h"
+i"CellView.h"
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.xib
+c000000005569C3A90000000000014EC3
+t1432994729
+s85699
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.h
+c0000000051740F47000000000000017A
+t1366560583
+s378
+i<Cocoa/Cocoa.h>
+i<Quartz/Quartz.h>
+i"COMainWindow.h"
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.m
+c00000000519811EE0000000000000293
+t1368920558
+s659
+i"CellOutlineAppDelegate.h"
+i"COMainWindow.h"
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutline_Prefix.pch
+c000000005164C8B50000000000000099
+t1365559477
+s153
+i<Cocoa/Cocoa.h>
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellView.h
+c0000000051981BE90000000000000173
+t1368923113
+s371
+i<Cocoa/Cocoa.h>
+i"COImage.h"
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellView.m
+c000000005564B3260000000000000117
+t1432662822
+s279
+i"CellView.h"
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellView.xib
+c000000005569C3260000000000007356
+t1432994598
+s29526
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellWindow.xib
+c0000000051980BA1000000000000F62A
+t1368918945
+s63018
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/English.lproj/InfoPlist.strings
+c000000005164C8B5000000000000002D
+t1365559477
+s45
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/English.lproj/MainMenu.xib
+c000000005164C8E0000000000002C004
+t1365559520
+s180228
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/ImageView.xib
+c00000000519963160000000000008C5B
+t1369006870
+s35931
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/Tip47.jpg
+c000000004E7235340000000000018938
+t1316107572
+s100664
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/COImage.o
+t1432994345
+s43600
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/COMainWindow.o
+t1432662944
+s52240
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/CellOutline.LinkFileList
+c0000000051981BC300000000000002A6
+t1368923075
+s678
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/CellOutlineAppDelegate.o
+t1412710277
+s26084
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/CellView.o
+t1432662824
+s17424
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/main.o
+t1366509940
+s5032
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app
+t1432994741
+s102
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Info.plist
+t1366509712
+s1296
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/MacOS/CellOutline
+t1432994346
+s44736
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/PkgInfo
+t1366509712
+s8
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/COMainWindow.nib
+t1432994741
+s13217
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/CellView.nib
+t1432994603
+s1564
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/CellWindow.nib
+t1368919895
+s9517
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1366509712
+s92
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/English.lproj/MainMenu.nib
+t1366509713
+s33597
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/ImageView.nib
+t1369006873
+s2839
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/Tip47.jpg
+t1367123025
+s100664
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/galt_noco_a_proj.jpg
+t1392865771
+s116133
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/galt_noco_b_proj.jpg
+t1392865771
+s74633
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/galt_noco_c_proj.jpg
+t1392865771
+s55398
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/galt_noco_d_proj.jpg
+t1392865771
+s55956
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/galt_noco_e_proj.jpg
+t1392865771
+s53898
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/galt_noco_f_proj.jpg
+t1392865771
+s65691
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/galt_noco_g_proj.jpg
+t1392865771
+s40571
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/galt_noco_h_proj.jpg
+t1392865771
+s46348
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/galt_noco_i_proj.jpg
+t1392865771
+s38937
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/galt_noco_j_proj.jpg
+t1392865771
+s106414
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/rab7a_proj.jpg
+t1392865771
+s129627
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/rab7b_proj.jpg
+t1392865771
+s89416
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/rab7c_proj.jpg
+t1392865771
+s92578
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/rab7d_proj.jpg
+t1392865771
+s116720
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/rab7e_proj.jpg
+t1392865771
+s51699
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/rab7f_proj.jpg
+t1392865771
+s155714
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/rab7g_proj.jpg
+t1392865771
+s103367
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/rab7h_proj.jpg
+t1392865771
+s137366
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/rab7i_proj.jpg
+t1392865771
+s130149
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/rab7j_proj.jpg
+t1392865771
+s44316
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/tip47a_proj.jpg
+t1392865771
+s144608
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/tip47b_proj.jpg
+t1392865771
+s102666
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/tip47c_proj.jpg
+t1392865771
+s98877
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/tip47d_proj.jpg
+t1392865771
+s169035
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/tip47e_proj.jpg
+t1392865771
+s81855
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/tip47f_proj.jpg
+t1392865771
+s99990
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/tip47g_proj.jpg
+t1392865771
+s92886
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/tip47h_proj.jpg
+t1392865771
+s73382
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/tip47i_proj.jpg
+t1392865771
+s136810
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/tip47j_proj.jpg
+t1392865771
+s72461
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/galt_noco_a_proj.jpg
+c00000000530570C3000000000001C5A5
+t1392865475
+s116133
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/galt_noco_b_proj.jpg
+c00000000530570C50000000000012389
+t1392865477
+s74633
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/galt_noco_c_proj.jpg
+c00000000530570C5000000000000D866
+t1392865477
+s55398
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/galt_noco_d_proj.jpg
+c00000000530570C6000000000000DA94
+t1392865478
+s55956
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/galt_noco_e_proj.jpg
+c00000000530570C6000000000000D28A
+t1392865478
+s53898
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/galt_noco_f_proj.jpg
+c00000000530570C7000000000001009B
+t1392865479
+s65691
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/galt_noco_g_proj.jpg
+c00000000530570C70000000000009E7B
+t1392865479
+s40571
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/galt_noco_h_proj.jpg
+c00000000530570C8000000000000B50C
+t1392865480
+s46348
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/galt_noco_i_proj.jpg
+c00000000530570C80000000000009819
+t1392865480
+s38937
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/galt_noco_j_proj.jpg
+c00000000530570C90000000000019FAE
+t1392865481
+s106414
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/main.m
+c000000005164C8B50000000000000102
+t1365559477
+s258
+i<Cocoa/Cocoa.h>
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/rab7a_proj.jpg
+c00000000530570CA000000000001FA5B
+t1392865482
+s129627
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/rab7b_proj.jpg
+c00000000530570CB0000000000015D48
+t1392865483
+s89416
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/rab7c_proj.jpg
+c00000000530570CC00000000000169A2
+t1392865484
+s92578
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/rab7d_proj.jpg
+c00000000530570CD000000000001C7F0
+t1392865485
+s116720
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/rab7e_proj.jpg
+c00000000530570CD000000000000C9F3
+t1392865485
+s51699
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/rab7f_proj.jpg
+c00000000530570CE0000000000026042
+t1392865486
+s155714
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/rab7g_proj.jpg
+c00000000530570CF00000000000193C7
+t1392865487
+s103367
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/rab7h_proj.jpg
+c00000000530570CF0000000000021896
+t1392865487
+s137366
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/rab7i_proj.jpg
+c00000000530570D0000000000001FC65
+t1392865488
+s130149
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/rab7j_proj.jpg
+c00000000530570D0000000000000AD1C
+t1392865488
+s44316
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/tip47a_proj.jpg
+c00000000530570D100000000000234E0
+t1392865489
+s144608
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/tip47b_proj.jpg
+c00000000530570D3000000000001910A
+t1392865491
+s102666
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/tip47c_proj.jpg
+c00000000530570D4000000000001823D
+t1392865492
+s98877
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/tip47d_proj.jpg
+c00000000530570D5000000000002944B
+t1392865493
+s169035
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/tip47e_proj.jpg
+c00000000530570D60000000000013FBF
+t1392865494
+s81855
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/tip47f_proj.jpg
+c00000000530570D60000000000018696
+t1392865494
+s99990
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/tip47g_proj.jpg
+c00000000530570D70000000000016AD6
+t1392865495
+s92886
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/tip47h_proj.jpg
+c00000000530570D80000000000011EA6
+t1392865496
+s73382
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/tip47i_proj.jpg
+c00000000530570D9000000000002166A
+t1392865497
+s136810
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/tip47j_proj.jpg
+c00000000530570DA0000000000011B0D
+t1392865498
+s72461
+
+N/var/folders/mt/mtr-q2fRHwKtog+hiX7YUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CellOutline_Prefix-bhcwswpyqdhoorbsuhqwziylvxfm/CellOutline_Prefix.pch.gch
+t1366509721
+s54306576
+
+N/var/folders/mt/mtr-q2fRHwKtog+hiX7YUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CellOutline_Prefix-eqblzlyonunpshgyyapovywjseqv/CellOutline_Prefix.pch.gch
+t1366509940
+s54310672
+
+N/var/folders/mt/mtr-q2fRHwKtog+hiX7YUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CellOutline_Prefix-gbmygihbwpgxmzbahhdnqddejzxm/CellOutline_Prefix.pch.gch
+t1433001552
+s54310672
+
+NCellOutline-Info.plist
+c000000005164C8B500000000000003EA
+t1365559477
+s1002
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies503087867#503087867#0(0"0(0#1#0"8604665472#0"0#
+
+CCompileC build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/COImage.o "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COImage.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s454687141.913875
+e454687145.298982
+r1
+xCompileC
+xbuild/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/COImage.o
+x/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COImage.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COImage.m454687141#454687145#0(0"0(0#0#61"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COImage.m7809643567100341248#1711"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-generated-files.hmap" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-own-target-headers.hmap" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-all-target-headers.hmap" -iquote "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-project-headers.hmap" "-F/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/include" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/DerivedSources/x86_64" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/DerivedSources" -include /var/folders/mt/mtr-q2fRHwKtog+hiX7YUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CellOutline_Prefix-eqblzlyonunpshgyyapovywjseqv/CellOutline_Prefix.pch -c "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COImage.m" -o "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/COImage.o"0#
+
+CCompileC build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/COImage.o /Users/johnpresley/CocoaBook/CellOutline/COImage.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s492838490.511901
+e492838491.124281
+r1
+xCompileC
+xbuild/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/COImage.o
+x/Users/johnpresley/CocoaBook/CellOutline/COImage.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/johnpresley/CocoaBook/CellOutline/COImage.m492838490#492838491#0(0"0(0#0#50"/Users/johnpresley/CocoaBook/CellOutline/COImage.m8612917760#1568"    cd /Users/johnpresley/CocoaBook/CellOutline    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-generated-files.hmap -I/Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-own-target-headers.hmap -I/Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-all-target-headers.hmap -iquote /Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-project-headers.hmap -F/Users/johnpresley/CocoaBook/CellOutline/build/Debug -I/Users/johnpresley/CocoaBook/CellOutline/build/Debug/include -I/Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/DerivedSources/x86_64 -I/Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/DerivedSources -include /var/folders/mt/mtr-q2fRHwKtog+hiX7YUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CellOutline_Prefix-gbmygihbwpgxmzbahhdnqddejzxm/CellOutline_Prefix.pch -c /Users/johnpresley/CocoaBook/CellOutline/COImage.m -o /Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/COImage.o0#
+
+CCompileC build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/COMainWindow.o "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s454355743.875595
+e454355744.710325
+r1
+xCompileC
+xbuild/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/COMainWindow.o
+x/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m: In function '-[COMainWindow polygonAsString:cellNum:]':
+o/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m:112: warning: local declaration of 'p' hides instance variable
+o/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m: In function '-[COMainWindow polygonListAsString:]':
+o/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m:126: warning: local declaration of 'p' hides instance variable
+lSLF07#2@74"Compile /Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m454355743#454355744#0(504"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m: In function '-[COMainWindow polygonAsString:cellNum:]':/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m:112: warning: local declaration of 'p' hides instance variable/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m: In function '-[COMainWindow polygonListAsString:]':/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m:126: warning: local declaration of 'p' hides instance variable2(22@48"Local declaration of 'p' hides instance variable454355744#124#130#0(6@66"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m454355734#112#0#112#0#0"0(22@48"Local declaration of 'p' hides instance variable454355744#374#130#0(6@66"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m454355734#126#0#126#0#0"0(0#0#66"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m8615206752#1721"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-generated-files.hmap" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-own-target-headers.hmap" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-all-target-headers.hmap" -iquote "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-project-headers.hmap" "-F/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/include" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/DerivedSources/x86_64" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/DerivedSources" -include /var/folders/mt/mtr-q2fRHwKtog+hiX7YUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CellOutline_Prefix-eqblzlyonunpshgyyapovywjseqv/CellOutline_Prefix.pch -c "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m" -o "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/COMainWindow.o"0#
+
+CCompileC build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/COMainWindow.o /Users/johnpresley/CocoaBook/CellOutline/COMainWindow.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s469429351.332630
+e469429351.708295
+r1
+xCompileC
+xbuild/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/COMainWindow.o
+x/Users/johnpresley/CocoaBook/CellOutline/COMainWindow.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/johnpresley/CocoaBook/CellOutline/COMainWindow.m: In function '-[COMainWindow polygonAsString:cellNum:]':
+o/Users/johnpresley/CocoaBook/CellOutline/COMainWindow.m:116: warning: local declaration of 'p' hides instance variable
+o/Users/johnpresley/CocoaBook/CellOutline/COMainWindow.m: In function '-[COMainWindow polygonListAsString:]':
+o/Users/johnpresley/CocoaBook/CellOutline/COMainWindow.m:130: warning: local declaration of 'p' hides instance variable
+lSLF07#2@63"Compile /Users/johnpresley/CocoaBook/CellOutline/COMainWindow.m469429351#469429351#0(460"/Users/johnpresley/CocoaBook/CellOutline/COMainWindow.m: In function '-[COMainWindow polygonAsString:cellNum:]':/Users/johnpresley/CocoaBook/CellOutline/COMainWindow.m:116: warning: local declaration of 'p' hides instance variable/Users/johnpresley/CocoaBook/CellOutline/COMainWindow.m: In function '-[COMainWindow polygonListAsString:]':/Users/johnpresley/CocoaBook/CellOutline/COMainWindow.m:130: warning: local declaration of 'p' hides instance variable2(22@48"Local declaration of 'p' hides instance variable469429351#113#119#0(6@55"/Users/johnpresley/CocoaBook/CellOutline/COMainWindow.m469429323#116#0#116#0#0"0(22@48"Local declaration of 'p' hides instance variable469429351#341#119#0(6@55"/Users/johnpresley/CocoaBook/CellOutline/COMainWindow.m469429323#130#0#130#0#0"0(0#0#55"/Users/johnpresley/CocoaBook/CellOutline/COMainWindow.m8602483200#1578"    cd /Users/johnpresley/CocoaBook/CellOutline    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-generated-files.hmap -I/Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-own-target-headers.hmap -I/Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-all-target-headers.hmap -iquote /Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-project-headers.hmap -F/Users/johnpresley/CocoaBook/CellOutline/build/Debug -I/Users/johnpresley/CocoaBook/CellOutline/build/Debug/include -I/Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/DerivedSources/x86_64 -I/Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/DerivedSources -include /var/folders/mt/mtr-q2fRHwKtog+hiX7YUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CellOutline_Prefix-gbmygihbwpgxmzbahhdnqddejzxm/CellOutline_Prefix.pch -c /Users/johnpresley/CocoaBook/CellOutline/COMainWindow.m -o /Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/COMainWindow.o0#
+
+CCompileC build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/CellOutlineAppDelegate.o "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s434403076.798683
+e434403077.059436
+r1
+xCompileC
+xbuild/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/CellOutlineAppDelegate.o
+x/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.m434403076#434403077#0(0"0(0#0#76"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.m8613089440#1741"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-generated-files.hmap" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-own-target-headers.hmap" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-all-target-headers.hmap" -iquote "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-project-headers.hmap" "-F/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/include" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/DerivedSources/x86_64" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/DerivedSources" -include /var/folders/mt/mtr-q2fRHwKtog+hiX7YUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CellOutline_Prefix-eqblzlyonunpshgyyapovywjseqv/CellOutline_Prefix.pch -c "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.m" -o "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/CellOutlineAppDelegate.o"0#
+
+CCompileC build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/CellOutlineAppDelegate.o /Users/johnpresley/CocoaBook/CellOutline/CellOutlineAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s469429351.331186
+e469429351.609890
+r1
+xCompileC
+xbuild/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/CellOutlineAppDelegate.o
+x/Users/johnpresley/CocoaBook/CellOutline/CellOutlineAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/johnpresley/CocoaBook/CellOutline/CellOutlineAppDelegate.m469429351#469429351#0(0"0(0#0#65"/Users/johnpresley/CocoaBook/CellOutline/CellOutlineAppDelegate.m8603219872#1598"    cd /Users/johnpresley/CocoaBook/CellOutline    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-generated-files.hmap -I/Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-own-target-headers.hmap -I/Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-all-target-headers.hmap -iquote /Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-project-headers.hmap -F/Users/johnpresley/CocoaBook/CellOutline/build/Debug -I/Users/johnpresley/CocoaBook/CellOutline/build/Debug/include -I/Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/DerivedSources/x86_64 -I/Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/DerivedSources -include /var/folders/mt/mtr-q2fRHwKtog+hiX7YUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CellOutline_Prefix-gbmygihbwpgxmzbahhdnqddejzxm/CellOutline_Prefix.pch -c /Users/johnpresley/CocoaBook/CellOutline/CellOutlineAppDelegate.m -o /Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/CellOutlineAppDelegate.o0#
+
+CCompileC build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/CellView.o "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellView.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s454355624.397007
+e454355624.789478
+r1
+xCompileC
+xbuild/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/CellView.o
+x/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellView.m454355624#454355624#0(0"0(0#0#62"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellView.m8614485664#1713"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-generated-files.hmap" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-own-target-headers.hmap" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-all-target-headers.hmap" -iquote "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-project-headers.hmap" "-F/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/include" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/DerivedSources/x86_64" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/DerivedSources" -include /var/folders/mt/mtr-q2fRHwKtog+hiX7YUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CellOutline_Prefix-eqblzlyonunpshgyyapovywjseqv/CellOutline_Prefix.pch -c "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellView.m" -o "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/CellView.o"0#
+
+CCompileC build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/CellView.o /Users/johnpresley/CocoaBook/CellOutline/CellView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s492838490.509294
+e492838490.943772
+r1
+xCompileC
+xbuild/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/CellView.o
+x/Users/johnpresley/CocoaBook/CellOutline/CellView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/johnpresley/CocoaBook/CellOutline/CellView.m492838490#492838490#0(0"0(0#0#51"/Users/johnpresley/CocoaBook/CellOutline/CellView.m8612069120#1570"    cd /Users/johnpresley/CocoaBook/CellOutline    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-generated-files.hmap -I/Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-own-target-headers.hmap -I/Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-all-target-headers.hmap -iquote /Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-project-headers.hmap -F/Users/johnpresley/CocoaBook/CellOutline/build/Debug -I/Users/johnpresley/CocoaBook/CellOutline/build/Debug/include -I/Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/DerivedSources/x86_64 -I/Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/DerivedSources -include /var/folders/mt/mtr-q2fRHwKtog+hiX7YUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CellOutline_Prefix-gbmygihbwpgxmzbahhdnqddejzxm/CellOutline_Prefix.pch -c /Users/johnpresley/CocoaBook/CellOutline/CellView.m -o /Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/CellView.o0#
+
+CCompileC build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/main.o "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s388202740.725232
+e388202740.900578
+r1
+xCompileC
+xbuild/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/main.o
+x/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/johnpresley/CocoaBook/Chapter 10/CellOutline/main.m388202740#388202740#0(0"0(0#0#58"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/main.m8606459936#1705"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-generated-files.hmap" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-own-target-headers.hmap" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-all-target-headers.hmap" -iquote "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-project-headers.hmap" "-F/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/include" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/DerivedSources/x86_64" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/DerivedSources" -include /var/folders/mt/mtr-q2fRHwKtog+hiX7YUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CellOutline_Prefix-eqblzlyonunpshgyyapovywjseqv/CellOutline_Prefix.pch -c "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/main.m" -o "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/main.o"0#
+
+CCompileC build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/main.o /Users/johnpresley/CocoaBook/CellOutline/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s454694352.733521
+e454694352.970227
+r1
+xCompileC
+xbuild/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/main.o
+x/Users/johnpresley/CocoaBook/CellOutline/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/johnpresley/CocoaBook/CellOutline/main.m454694352#454694352#0(0"0(0#0#47"/Users/johnpresley/CocoaBook/CellOutline/main.m8604775360#1562"    cd /Users/johnpresley/CocoaBook/CellOutline    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-generated-files.hmap -I/Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-own-target-headers.hmap -I/Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-all-target-headers.hmap -iquote /Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-project-headers.hmap -F/Users/johnpresley/CocoaBook/CellOutline/build/Debug -I/Users/johnpresley/CocoaBook/CellOutline/build/Debug/include -I/Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/DerivedSources/x86_64 -I/Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/DerivedSources -include /var/folders/mt/mtr-q2fRHwKtog+hiX7YUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CellOutline_Prefix-gbmygihbwpgxmzbahhdnqddejzxm/CellOutline_Prefix.pch -c /Users/johnpresley/CocoaBook/CellOutline/main.m -o /Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.xib"
+s454687541.102091
+e454687541.389285
+r1
+xCompileXIB
+x/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.xib
+lSLF07#2@27"CompileXIB COMainWindow.xib454687541#454687541#0(0"0(0#0#68"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.xib8604733248#393"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/COMainWindow.nib" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.xib" --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCompileXIB "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellView.xib"
+s454687402.887286
+e454687403.054440
+r1
+xCompileXIB
+x/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellView.xib
+lSLF07#2@23"CompileXIB CellView.xib454687402#454687403#0(0"0(0#0#64"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellView.xib18859025311006820#385"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/CellView.nib" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellView.xib" --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCompileXIB "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellWindow.xib"
+s390612695.029843
+e390612695.293557
+r1
+xCompileXIB
+x/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellWindow.xib
+lSLF07#2@25"CompileXIB CellWindow.xib390612695#390612695#0(0"0(0#0#66"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellWindow.xib18859025311006820#389"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/CellWindow.nib" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellWindow.xib" --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCompileXIB "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/English.lproj/MainMenu.xib"
+s388202512.620593
+e388202513.140486
+r1
+xCompileXIB
+x/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib388202512#388202513#0(0"0(0#0#78"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/English.lproj/MainMenu.xib8604158816#413"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/English.lproj/MainMenu.nib" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/English.lproj/MainMenu.xib" --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCompileXIB "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/ImageView.xib"
+s390699673.564052
+e390699673.755604
+r1
+xCompileXIB
+x/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/ImageView.xib
+lSLF07#2@24"CompileXIB ImageView.xib390699673#390699673#0(0"0(0#0#65"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/ImageView.xib8621167808#387"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/ImageView.nib" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/ImageView.xib" --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCompileXIB /Users/johnpresley/CocoaBook/CellOutline/COMainWindow.xib
+s469429350.989347
+e469429351.330875
+r1
+xCompileXIB
+x/Users/johnpresley/CocoaBook/CellOutline/COMainWindow.xib
+lSLF07#2@27"CompileXIB COMainWindow.xib469429351#469429351#0(0"0(0#0#57"/Users/johnpresley/CocoaBook/CellOutline/COMainWindow.xib18859025310089328#354"    cd /Users/johnpresley/CocoaBook/CellOutline    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/COMainWindow.nib /Users/johnpresley/CocoaBook/CellOutline/COMainWindow.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCompileXIB /Users/johnpresley/CocoaBook/CellOutline/CellView.xib
+s454703703.289935
+e454703703.459569
+r1
+xCompileXIB
+x/Users/johnpresley/CocoaBook/CellOutline/CellView.xib
+lSLF07#2@23"CompileXIB CellView.xib454703703#454703703#0(0"0(0#0#53"/Users/johnpresley/CocoaBook/CellOutline/CellView.xib18859025310089328#346"    cd /Users/johnpresley/CocoaBook/CellOutline    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/CellView.nib /Users/johnpresley/CocoaBook/CellOutline/CellView.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCompileXIB /Users/johnpresley/CocoaBook/CellOutline/English.lproj/MainMenu.xib
+r0
+
+CCopyStringsFile "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+s388202512.596462
+e388202512.858480
+r1
+xCopyStringsFile
+x/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings388202512#388202512#0(0"0(0#0#83"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/English.lproj/InfoPlist.strings8605739488#399"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/English.lproj"0#
+
+CCopyStringsFile /Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+r0
+
+CCpResource build/Debug/CellOutline.app/Contents/Resources/Tip47.jpg Tip47.jpg
+s388815825.113594
+e388815825.205867
+r1
+xCpResource
+xbuild/Debug/CellOutline.app/Contents/Resources/Tip47.jpg
+xTip47.jpg
+lSLF07#2@14"Copy Tip47.jpg388815825#388815825#0(0"0(0#0#61"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/Tip47.jpg32933049024053348#388"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/Tip47.jpg" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources"0#
+
+CCpResource build/Debug/CellOutline.app/Contents/Resources/galt_noco_a_proj.jpg galt_noco_a_proj.jpg
+s414558571.391000
+e414558571.445032
+r1
+xCpResource
+xbuild/Debug/CellOutline.app/Contents/Resources/galt_noco_a_proj.jpg
+xgalt_noco_a_proj.jpg
+lSLF07#2@25"Copy galt_noco_a_proj.jpg414558571#414558571#0(0"0(0#0#72"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/galt_noco_a_proj.jpg32933049024053348#399"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/galt_noco_a_proj.jpg" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources"0#
+
+CCpResource build/Debug/CellOutline.app/Contents/Resources/galt_noco_b_proj.jpg galt_noco_b_proj.jpg
+s414558571.391697
+e414558571.448758
+r1
+xCpResource
+xbuild/Debug/CellOutline.app/Contents/Resources/galt_noco_b_proj.jpg
+xgalt_noco_b_proj.jpg
+lSLF07#2@25"Copy galt_noco_b_proj.jpg414558571#414558571#0(0"0(0#0#72"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/galt_noco_b_proj.jpg8604604384#399"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/galt_noco_b_proj.jpg" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources"0#
+
+CCpResource build/Debug/CellOutline.app/Contents/Resources/galt_noco_c_proj.jpg galt_noco_c_proj.jpg
+s414558571.392380
+e414558571.452592
+r1
+xCpResource
+xbuild/Debug/CellOutline.app/Contents/Resources/galt_noco_c_proj.jpg
+xgalt_noco_c_proj.jpg
+lSLF07#2@25"Copy galt_noco_c_proj.jpg414558571#414558571#0(0"0(0#0#72"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/galt_noco_c_proj.jpg8603088512#399"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/galt_noco_c_proj.jpg" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources"0#
+
+CCpResource build/Debug/CellOutline.app/Contents/Resources/galt_noco_d_proj.jpg galt_noco_d_proj.jpg
+s414558571.394004
+e414558571.443091
+r1
+xCpResource
+xbuild/Debug/CellOutline.app/Contents/Resources/galt_noco_d_proj.jpg
+xgalt_noco_d_proj.jpg
+lSLF07#2@25"Copy galt_noco_d_proj.jpg414558571#414558571#0(0"0(0#0#72"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/galt_noco_d_proj.jpg8602434336#399"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/galt_noco_d_proj.jpg" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources"0#
+
+CCpResource build/Debug/CellOutline.app/Contents/Resources/galt_noco_e_proj.jpg galt_noco_e_proj.jpg
+s414558571.395544
+e414558571.452713
+r1
+xCpResource
+xbuild/Debug/CellOutline.app/Contents/Resources/galt_noco_e_proj.jpg
+xgalt_noco_e_proj.jpg
+lSLF07#2@25"Copy galt_noco_e_proj.jpg414558571#414558571#0(0"0(0#0#72"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/galt_noco_e_proj.jpg8602244864#399"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/galt_noco_e_proj.jpg" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources"0#
+
+CCpResource build/Debug/CellOutline.app/Contents/Resources/galt_noco_f_proj.jpg galt_noco_f_proj.jpg
+s414558571.397214
+e414558571.452824
+r1
+xCpResource
+xbuild/Debug/CellOutline.app/Contents/Resources/galt_noco_f_proj.jpg
+xgalt_noco_f_proj.jpg
+lSLF07#2@25"Copy galt_noco_f_proj.jpg414558571#414558571#0(0"0(0#0#72"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/galt_noco_f_proj.jpg8602140992#399"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/galt_noco_f_proj.jpg" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources"0#
+
+CCpResource build/Debug/CellOutline.app/Contents/Resources/galt_noco_g_proj.jpg galt_noco_g_proj.jpg
+s414558571.398870
+e414558571.445156
+r1
+xCpResource
+xbuild/Debug/CellOutline.app/Contents/Resources/galt_noco_g_proj.jpg
+xgalt_noco_g_proj.jpg
+lSLF07#2@25"Copy galt_noco_g_proj.jpg414558571#414558571#0(0"0(0#0#72"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/galt_noco_g_proj.jpg8601969504#399"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/galt_noco_g_proj.jpg" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources"0#
+
+CCpResource build/Debug/CellOutline.app/Contents/Resources/galt_noco_h_proj.jpg galt_noco_h_proj.jpg
+s414558571.400515
+e414558571.459023
+r1
+xCpResource
+xbuild/Debug/CellOutline.app/Contents/Resources/galt_noco_h_proj.jpg
+xgalt_noco_h_proj.jpg
+lSLF07#2@25"Copy galt_noco_h_proj.jpg414558571#414558571#0(0"0(0#0#72"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/galt_noco_h_proj.jpg8601842464#399"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/galt_noco_h_proj.jpg" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources"0#
+
+CCpResource build/Debug/CellOutline.app/Contents/Resources/galt_noco_i_proj.jpg galt_noco_i_proj.jpg
+s414558571.402186
+e414558571.506731
+r1
+xCpResource
+xbuild/Debug/CellOutline.app/Contents/Resources/galt_noco_i_proj.jpg
+xgalt_noco_i_proj.jpg
+lSLF07#2@25"Copy galt_noco_i_proj.jpg414558571#414558571#0(0"0(0#0#72"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/galt_noco_i_proj.jpg8601729440#399"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/galt_noco_i_proj.jpg" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources"0#
+
+CCpResource build/Debug/CellOutline.app/Contents/Resources/galt_noco_j_proj.jpg galt_noco_j_proj.jpg
+s414558571.403829
+e414558571.448887
+r1
+xCpResource
+xbuild/Debug/CellOutline.app/Contents/Resources/galt_noco_j_proj.jpg
+xgalt_noco_j_proj.jpg
+lSLF07#2@25"Copy galt_noco_j_proj.jpg414558571#414558571#0(0"0(0#0#72"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/galt_noco_j_proj.jpg8601587904#399"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/galt_noco_j_proj.jpg" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources"0#
+
+CCpResource build/Debug/CellOutline.app/Contents/Resources/rab7a_proj.jpg rab7a_proj.jpg
+s414558571.443187
+e414558571.473364
+r1
+xCpResource
+xbuild/Debug/CellOutline.app/Contents/Resources/rab7a_proj.jpg
+xrab7a_proj.jpg
+lSLF07#2@19"Copy rab7a_proj.jpg414558571#414558571#0(0"0(0#0#66"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/rab7a_proj.jpg8601559872#393"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/rab7a_proj.jpg" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources"0#
+
+CCpResource build/Debug/CellOutline.app/Contents/Resources/rab7b_proj.jpg rab7b_proj.jpg
+s414558571.445235
+e414558571.470863
+r1
+xCpResource
+xbuild/Debug/CellOutline.app/Contents/Resources/rab7b_proj.jpg
+xrab7b_proj.jpg
+lSLF07#2@19"Copy rab7b_proj.jpg414558571#414558571#0(0"0(0#0#66"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/rab7b_proj.jpg8601543648#393"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/rab7b_proj.jpg" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources"0#
+
+CCpResource build/Debug/CellOutline.app/Contents/Resources/rab7c_proj.jpg rab7c_proj.jpg
+s414558571.446897
+e414558571.461062
+r1
+xCpResource
+xbuild/Debug/CellOutline.app/Contents/Resources/rab7c_proj.jpg
+xrab7c_proj.jpg
+lSLF07#2@19"Copy rab7c_proj.jpg414558571#414558571#0(0"0(0#0#66"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/rab7c_proj.jpg8607708608#393"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/rab7c_proj.jpg" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources"0#
+
+CCpResource build/Debug/CellOutline.app/Contents/Resources/rab7d_proj.jpg rab7d_proj.jpg
+s414558571.448976
+e414558571.477901
+r1
+xCpResource
+xbuild/Debug/CellOutline.app/Contents/Resources/rab7d_proj.jpg
+xrab7d_proj.jpg
+lSLF07#2@19"Copy rab7d_proj.jpg414558571#414558571#0(0"0(0#0#66"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/rab7d_proj.jpg8607815584#393"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/rab7d_proj.jpg" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources"0#
+
+CCpResource build/Debug/CellOutline.app/Contents/Resources/rab7e_proj.jpg rab7e_proj.jpg
+s414558571.450647
+e414558571.466732
+r1
+xCpResource
+xbuild/Debug/CellOutline.app/Contents/Resources/rab7e_proj.jpg
+xrab7e_proj.jpg
+lSLF07#2@19"Copy rab7e_proj.jpg414558571#414558571#0(0"0(0#0#66"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/rab7e_proj.jpg8607259744#393"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/rab7e_proj.jpg" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources"0#
+
+CCpResource build/Debug/CellOutline.app/Contents/Resources/rab7f_proj.jpg rab7f_proj.jpg
+s414558571.452888
+e414558571.473237
+r1
+xCpResource
+xbuild/Debug/CellOutline.app/Contents/Resources/rab7f_proj.jpg
+xrab7f_proj.jpg
+lSLF07#2@19"Copy rab7f_proj.jpg414558571#414558571#0(0"0(0#0#66"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/rab7f_proj.jpg8607256640#393"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/rab7f_proj.jpg" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources"0#
+
+CCpResource build/Debug/CellOutline.app/Contents/Resources/rab7g_proj.jpg rab7g_proj.jpg
+s414558571.455058
+e414558571.464256
+r1
+xCpResource
+xbuild/Debug/CellOutline.app/Contents/Resources/rab7g_proj.jpg
+xrab7g_proj.jpg
+lSLF07#2@19"Copy rab7g_proj.jpg414558571#414558571#0(0"0(0#0#66"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/rab7g_proj.jpg8600655104#393"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/rab7g_proj.jpg" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources"0#
+
+CCpResource build/Debug/CellOutline.app/Contents/Resources/rab7h_proj.jpg rab7h_proj.jpg
+s414558571.456926
+e414558571.478020
+r1
+xCpResource
+xbuild/Debug/CellOutline.app/Contents/Resources/rab7h_proj.jpg
+xrab7h_proj.jpg
+lSLF07#2@19"Copy rab7h_proj.jpg414558571#414558571#0(0"0(0#0#66"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/rab7h_proj.jpg8600079328#393"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/rab7h_proj.jpg" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources"0#
+
+CCpResource build/Debug/CellOutline.app/Contents/Resources/rab7i_proj.jpg rab7i_proj.jpg
+s414558571.459104
+e414558571.482708
+r1
+xCpResource
+xbuild/Debug/CellOutline.app/Contents/Resources/rab7i_proj.jpg
+xrab7i_proj.jpg
+lSLF07#2@19"Copy rab7i_proj.jpg414558571#414558571#0(0"0(0#0#66"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/rab7i_proj.jpg8599541184#393"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/rab7i_proj.jpg" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources"0#
+
+CCpResource build/Debug/CellOutline.app/Contents/Resources/rab7j_proj.jpg rab7j_proj.jpg
+s414558571.461139
+e414558571.488583
+r1
+xCpResource
+xbuild/Debug/CellOutline.app/Contents/Resources/rab7j_proj.jpg
+xrab7j_proj.jpg
+lSLF07#2@19"Copy rab7j_proj.jpg414558571#414558571#0(0"0(0#0#66"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/rab7j_proj.jpg8599020768#393"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/rab7j_proj.jpg" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources"0#
+
+CCpResource build/Debug/CellOutline.app/Contents/Resources/tip47a_proj.jpg tip47a_proj.jpg
+s414558571.464427
+e414558571.494854
+r1
+xCpResource
+xbuild/Debug/CellOutline.app/Contents/Resources/tip47a_proj.jpg
+xtip47a_proj.jpg
+lSLF07#2@20"Copy tip47a_proj.jpg414558571#414558571#0(0"0(0#0#67"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/tip47a_proj.jpg8601678624#394"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/tip47a_proj.jpg" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources"0#
+
+CCpResource build/Debug/CellOutline.app/Contents/Resources/tip47b_proj.jpg tip47b_proj.jpg
+s414558571.466810
+e414558571.496148
+r1
+xCpResource
+xbuild/Debug/CellOutline.app/Contents/Resources/tip47b_proj.jpg
+xtip47b_proj.jpg
+lSLF07#2@20"Copy tip47b_proj.jpg414558571#414558571#0(0"0(0#0#67"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/tip47b_proj.jpg8600401504#394"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/tip47b_proj.jpg" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources"0#
+
+CCpResource build/Debug/CellOutline.app/Contents/Resources/tip47c_proj.jpg tip47c_proj.jpg
+s414558571.470947
+e414558571.507992
+r1
+xCpResource
+xbuild/Debug/CellOutline.app/Contents/Resources/tip47c_proj.jpg
+xtip47c_proj.jpg
+lSLF07#2@20"Copy tip47c_proj.jpg414558571#414558571#0(0"0(0#0#67"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/tip47c_proj.jpg8599606464#394"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/tip47c_proj.jpg" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources"0#
+
+CCpResource build/Debug/CellOutline.app/Contents/Resources/tip47d_proj.jpg tip47d_proj.jpg
+s414558571.473433
+e414558571.506886
+r1
+xCpResource
+xbuild/Debug/CellOutline.app/Contents/Resources/tip47d_proj.jpg
+xtip47d_proj.jpg
+lSLF07#2@20"Copy tip47d_proj.jpg414558571#414558571#0(0"0(0#0#67"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/tip47d_proj.jpg8606822496#394"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/tip47d_proj.jpg" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources"0#
+
+CCpResource build/Debug/CellOutline.app/Contents/Resources/tip47e_proj.jpg tip47e_proj.jpg
+s414558571.475595
+e414558571.490934
+r1
+xCpResource
+xbuild/Debug/CellOutline.app/Contents/Resources/tip47e_proj.jpg
+xtip47e_proj.jpg
+lSLF07#2@20"Copy tip47e_proj.jpg414558571#414558571#0(0"0(0#0#67"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/tip47e_proj.jpg8602651840#394"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/tip47e_proj.jpg" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources"0#
+
+CCpResource build/Debug/CellOutline.app/Contents/Resources/tip47f_proj.jpg tip47f_proj.jpg
+s414558571.478091
+e414558571.506065
+r1
+xCpResource
+xbuild/Debug/CellOutline.app/Contents/Resources/tip47f_proj.jpg
+xtip47f_proj.jpg
+lSLF07#2@20"Copy tip47f_proj.jpg414558571#414558571#0(0"0(0#0#67"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/tip47f_proj.jpg8600248320#394"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/tip47f_proj.jpg" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources"0#
+
+CCpResource build/Debug/CellOutline.app/Contents/Resources/tip47g_proj.jpg tip47g_proj.jpg
+s414558571.479999
+e414558571.500154
+r1
+xCpResource
+xbuild/Debug/CellOutline.app/Contents/Resources/tip47g_proj.jpg
+xtip47g_proj.jpg
+lSLF07#2@20"Copy tip47g_proj.jpg414558571#414558571#0(0"0(0#0#67"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/tip47g_proj.jpg8607391168#394"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/tip47g_proj.jpg" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources"0#
+
+CCpResource build/Debug/CellOutline.app/Contents/Resources/tip47h_proj.jpg tip47h_proj.jpg
+s414558571.482797
+e414558571.500759
+r1
+xCpResource
+xbuild/Debug/CellOutline.app/Contents/Resources/tip47h_proj.jpg
+xtip47h_proj.jpg
+lSLF07#2@20"Copy tip47h_proj.jpg414558571#414558571#0(0"0(0#0#67"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/tip47h_proj.jpg8601266496#394"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/tip47h_proj.jpg" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources"0#
+
+CCpResource build/Debug/CellOutline.app/Contents/Resources/tip47i_proj.jpg tip47i_proj.jpg
+s414558571.488669
+e414558571.508561
+r1
+xCpResource
+xbuild/Debug/CellOutline.app/Contents/Resources/tip47i_proj.jpg
+xtip47i_proj.jpg
+lSLF07#2@20"Copy tip47i_proj.jpg414558571#414558571#0(0"0(0#0#67"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/tip47i_proj.jpg8590269856#394"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/tip47i_proj.jpg" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources"0#
+
+CCpResource build/Debug/CellOutline.app/Contents/Resources/tip47j_proj.jpg tip47j_proj.jpg
+s414558571.491017
+e414558571.511258
+r1
+xCpResource
+xbuild/Debug/CellOutline.app/Contents/Resources/tip47j_proj.jpg
+xtip47j_proj.jpg
+lSLF07#2@20"Copy tip47j_proj.jpg414558571#414558571#0(0"0(0#0#67"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/tip47j_proj.jpg8600367616#394"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/tip47j_proj.jpg" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources"0#
+
+CLd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/MacOS/CellOutline" normal x86_64
+s454687145.299187
+e454687146.489754
+r1
+xLd
+x/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/MacOS/CellOutline
+xnormal
+xx86_64
+lSLF07#2@111"Link /Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/MacOS/CellOutline454687145#454687146#0(0"0(0#0#0"8607106752#655"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug" "-F/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug" -filelist "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/CellOutline.LinkFileList" -mmacosx-version-min=10.6 -framework Cocoa -framework Quartz -o "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/MacOS/CellOutline"0#
+
+CLd /Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/MacOS/CellOutline normal x86_64
+s492838491.124370
+e492838491.172951
+r1
+xLd
+x/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/MacOS/CellOutline
+xnormal
+xx86_64
+lSLF07#2@100"Link /Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/MacOS/CellOutline492838491#492838491#0(0"0(0#0#0"8618869440#590"    cd /Users/johnpresley/CocoaBook/CellOutline    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/johnpresley/CocoaBook/CellOutline/build/Debug -F/Users/johnpresley/CocoaBook/CellOutline/build/Debug -filelist /Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/CellOutline.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Quartz -o /Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/MacOS/CellOutline0#
+
+CProcessInfoPlistFile "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Info.plist" CellOutline-Info.plist
+s388202512.541062
+e388202512.596331
+r1
+xProcessInfoPlistFile
+x/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Info.plist
+xCellOutline-Info.plist
+lSLF07#2@30"Process CellOutline-Info.plist388202512#388202512#0(0"0(0#0#74"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutline-Info.plist7596574718659685376#367"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    builtin-infoPlistUtility CellOutline-Info.plist -genpkginfo "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Info.plist"0#
+
+CProcessInfoPlistFile /Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app/Contents/Info.plist CellOutline-Info.plist
+r0
+
+CProcessPCH /var/folders/mt/mtr-q2fRHwKtog+hiX7YUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CellOutline_Prefix-bhcwswpyqdhoorbsuhqwziylvxfm/CellOutline_Prefix.pch.gch CellOutline_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s388202513.142113
+e388202521.120849
+r1
+xProcessPCH
+x/var/folders/mt/mtr-q2fRHwKtog+hiX7YUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CellOutline_Prefix-bhcwswpyqdhoorbsuhqwziylvxfm/CellOutline_Prefix.pch.gch
+xCellOutline_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile CellOutline_Prefix.pch388202513#388202521#0(0"0(0#0#74"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutline_Prefix.pch8604531488#1582"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-generated-files.hmap" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-own-target-headers.hmap" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-all-target-headers.hmap" -iquote "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-project-headers.hmap" "-F/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/include" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/DerivedSources/x86_64" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/DerivedSources" -c "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutline_Prefix.pch" -o /var/folders/mt/mtr-q2fRHwKtog+hiX7YUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CellOutline_Prefix-bhcwswpyqdhoorbsuhqwziylvxfm/CellOutline_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/mt/mtr-q2fRHwKtog+hiX7YUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CellOutline_Prefix-eqblzlyonunpshgyyapovywjseqv/CellOutline_Prefix.pch.gch CellOutline_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s388202737.697575
+e388202740.725055
+r1
+xProcessPCH
+x/var/folders/mt/mtr-q2fRHwKtog+hiX7YUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CellOutline_Prefix-eqblzlyonunpshgyyapovywjseqv/CellOutline_Prefix.pch.gch
+xCellOutline_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile CellOutline_Prefix.pch388202737#388202740#0(0"0(0#0#74"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutline_Prefix.pch8608603584#1592"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-generated-files.hmap" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-own-target-headers.hmap" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-all-target-headers.hmap" -iquote "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-project-headers.hmap" "-F/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/include" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/DerivedSources/x86_64" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/DerivedSources" -c "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutline_Prefix.pch" -o /var/folders/mt/mtr-q2fRHwKtog+hiX7YUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CellOutline_Prefix-eqblzlyonunpshgyyapovywjseqv/CellOutline_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/mt/mtr-q2fRHwKtog+hiX7YUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CellOutline_Prefix-gbmygihbwpgxmzbahhdnqddejzxm/CellOutline_Prefix.pch.gch CellOutline_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s454694346.296527
+e454694352.733065
+r1
+xProcessPCH
+x/var/folders/mt/mtr-q2fRHwKtog+hiX7YUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CellOutline_Prefix-gbmygihbwpgxmzbahhdnqddejzxm/CellOutline_Prefix.pch.gch
+xCellOutline_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile CellOutline_Prefix.pch454694346#454694352#0(0"0(0#0#63"/Users/johnpresley/CocoaBook/CellOutline/CellOutline_Prefix.pch7956009464166837248#1462"    cd /Users/johnpresley/CocoaBook/CellOutline    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-generated-files.hmap -I/Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-own-target-headers.hmap -I/Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-all-target-headers.hmap -iquote /Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-project-headers.hmap -F/Users/johnpresley/CocoaBook/CellOutline/build/Debug -I/Users/johnpresley/CocoaBook/CellOutline/build/Debug/include -I/Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/DerivedSources/x86_64 -I/Users/johnpresley/CocoaBook/CellOutline/build/CellOutline.build/Debug/CellOutline.build/DerivedSources -c /Users/johnpresley/CocoaBook/CellOutline/CellOutline_Prefix.pch -o /var/folders/mt/mtr-q2fRHwKtog+hiX7YUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CellOutline_Prefix-gbmygihbwpgxmzbahhdnqddejzxm/CellOutline_Prefix.pch.gch0#
+
+CTouch "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app"
+s454687541.390078
+e454687541.393146
+r1
+xTouch
+x/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app
+lSLF07#2@85"Touch /Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app454687541#454687541#0(0"0(0#0#0"8601981120#165"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /usr/bin/touch -c "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app"0#
+
+CTouch /Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app
+s492838491.173036
+e492838491.175635
+r1
+xTouch
+x/Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app
+lSLF07#2@74"Touch /Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app492838491#492838491#0(0"0(0#0#0"8618678912#139"    cd /Users/johnpresley/CocoaBook/CellOutline    /usr/bin/touch -c /Users/johnpresley/CocoaBook/CellOutline/build/Debug/CellOutline.app0#
+

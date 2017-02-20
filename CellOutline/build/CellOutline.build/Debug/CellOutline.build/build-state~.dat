@@ -1,0 +1,256 @@
+TCellOutline
+v7
+r0
+t388202521.418887
+cCheck dependencies
+cProcessInfoPlistFile "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Info.plist" CellOutline-Info.plist
+cCopyStringsFile "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+cCompileXIB "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/English.lproj/MainMenu.xib"
+cCompileXIB "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellWindow.xib"
+cProcessPCH /var/folders/mt/mtr-q2fRHwKtog+hiX7YUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CellOutline_Prefix-bhcwswpyqdhoorbsuhqwziylvxfm/CellOutline_Prefix.pch.gch CellOutline_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/main.o "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/CellOutlineAppDelegate.o "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/COMainWindow.o "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004B5FA877000000000000A5E0
+t1264560247
+s42464
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.h
+c000000005168EFBA0000000000000137
+t1365831610
+s311
+i<Cocoa/Cocoa.h>
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m
+c000000005168F22C00000000000002FA
+t1365832236
+s762
+i"COMainWindow.h"
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.h
+c000000005168BDD7000000000000016C
+t1365818839
+s364
+i<Cocoa/Cocoa.h>
+i"COMainWindow.h"
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.m
+c000000005168BD92000000000000023D
+t1365818770
+s573
+i"CellOutlineAppDelegate.h"
+i"COMainWindow.h"
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutline_Prefix.pch
+c000000005164C8B50000000000000099
+t1365559477
+s153
+i<Cocoa/Cocoa.h>
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellWindow.xib
+c000000005168F369000000000000D609
+t1365832553
+s54793
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/English.lproj/InfoPlist.strings
+c000000005164C8B5000000000000002D
+t1365559477
+s45
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/English.lproj/MainMenu.xib
+c000000005164C8E0000000000002C004
+t1365559520
+s180228
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/COMainWindow.o
+t2
+s0
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/CellOutline.LinkFileList
+c0000000051734890000000000000019D
+t1366509712
+s413
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/CellOutlineAppDelegate.o
+t2
+s0
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/main.o
+t1366509721
+s5024
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app
+t2
+s0
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Info.plist
+t1366509712
+s1296
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/MacOS/CellOutline
+t2
+s0
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/PkgInfo
+t1366509712
+s8
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/CellWindow.nib
+t1366509713
+s9569
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1366509712
+s92
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/English.lproj/MainMenu.nib
+t1366509713
+s33597
+
+N/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/main.m
+c000000005164C8B50000000000000102
+t1365559477
+s258
+i<Cocoa/Cocoa.h>
+
+N/var/folders/mt/mtr-q2fRHwKtog+hiX7YUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CellOutline_Prefix-bhcwswpyqdhoorbsuhqwziylvxfm/CellOutline_Prefix.pch.gch
+t1366509721
+s54306576
+
+NCellOutline-Info.plist
+c000000005164C8B500000000000003EA
+t1365559477
+s1002
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies388202512#388202512#0(0"0(0#1#0"32651522506817640#0"0#
+
+CCompileC build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/COMainWindow.o "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s388202521.290193
+e388202521.418808
+r0
+xCompileC
+xbuild/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/COMainWindow.o
+x/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m:9:
+o/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.h:16: error: expected specifier-qualifier-list before 'window'
+o/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.h:17: error: expected specifier-qualifier-list before '*' token
+o/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m:14: error: no declaration of property 'window' found in the interface
+o/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m:15: error: no declaration of property 'location' found in the interface
+o/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m: In function '-[COMainWindow mouseDown:]':
+o/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m:24: warning: 'COMainWindow' may not respond to '-convertPointFromBase:'
+o/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m:24: warning: (Messages without a matching method signature
+o/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m:24: warning: will be assumed to return 'id' and accept
+o/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m:24: warning: '...' as arguments.)
+o/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m:24: error: invalid initializer
+o/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m:32: error: 'location' undeclared (first use in this function)
+o/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m:32: error: (Each undeclared identifier is reported only once
+o/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m:32: error: for each function it appears in.)
+lSLF07#2@74"Compile /Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m388202521#388202521#0(1690"In file included from /Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m:9:/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.h:16: error: expected specifier-qualifier-list before 'window'/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.h:17: error: expected specifier-qualifier-list before '*' token/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m:14: error: no declaration of property 'window' found in the interface/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m:15: error: no declaration of property 'location' found in the interface/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m: In function '-[COMainWindow mouseDown:]':/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m:24: warning: 'COMainWindow' may not respond to '-convertPointFromBase:'/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m:24: warning: (Messages without a matching method signature/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m:24: warning: will be assumed to return 'id' and accept/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m:24: warning: '...' as arguments.)/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m:24: error: invalid initializer/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m:32: error: 'location' undeclared (first use in this function)/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m:32: error: (Each undeclared identifier is reported only once/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m:32: error: for each function it appears in.)8(4@49"Expected specifier-qualifier-list before 'window'388202521#92#128#2(7@88"In file included from /Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m388202521#18446744073709551615#0#0(6@66"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m387525036#9#0#9#0#0"0(13@119"Expected specifier-qualifier-list before 'window' in /Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.h388202521#18446744073709551615#0#0(6@66"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.h387524410#16#0#16#0#0"0(6@66"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.h387524410#16#0#16#0#19"expected * before *0(4@50"Expected specifier-qualifier-list before '*' token388202521#220#129#2(7@88"In file included from /Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m388202521#18446744073709551615#0#0(6@66"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m387525036#9#0#9#0#0"0(13@120"Expected specifier-qualifier-list before '*' token in /Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.h388202521#18446744073709551615#0#0(6@66"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.h387524410#17#0#17#0#0"0(6@66"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.h387524410#17#0#17#0#19"expected * before *0(4@58"No declaration of property 'window' found in the interface388202521#349#137#0(6@66"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m387525036#14#0#14#0#0"0(4@60"No declaration of property 'location' found in the interface388202521#486#139#0(6@66"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m387525036#15#0#15#0#0"0(22@58"'COMainWindow' may not respond to '-convertPointFromBase:'388202521#735#139#0(6@66"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m387525036#24#0#24#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)388202521#874#126#0(6@66"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m387525036#24#0#24#0#0"0(4@19"Invalid initializer388202521#1223#98#0(6@66"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m387525036#24#0#24#0#0"0(4@50"'location' undeclared (first use in this function)388202521#1321#129#0(6@66"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m387525036#32#0#32#0#43"'*' undeclared (first use in this function)0(0#0#66"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m8599523328#1711"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-generated-files.hmap" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-own-target-headers.hmap" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-all-target-headers.hmap" -iquote "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-project-headers.hmap" "-F/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/include" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/DerivedSources/x86_64" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/DerivedSources" -include /var/folders/mt/mtr-q2fRHwKtog+hiX7YUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CellOutline_Prefix-bhcwswpyqdhoorbsuhqwziylvxfm/CellOutline_Prefix.pch -c "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.m" -o "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/COMainWindow.o"1#
+
+CCompileC build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/CellOutlineAppDelegate.o "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s388202521.122821
+e388202521.290095
+r0
+xCompileC
+xbuild/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/CellOutlineAppDelegate.o
+x/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.h:10,
+o                 from /Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.m:9:
+o/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.h:16: error: expected specifier-qualifier-list before 'window'
+o/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.h:17: error: expected specifier-qualifier-list before '*' token
+oIn file included from /Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.m:9:
+o/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.h:13: error: expected specifier-qualifier-list before 'COWindowController'
+o/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.h:16: error: expected specifier-qualifier-list before 'COWindowController'
+o/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.m:14: error: no declaration of property 'window' found in the interface
+o/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.m: In function '-[CellOutlineAppDelegate applicationDidFinishLaunching:]':
+o/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.m:21: error: request for member 'window' in something not a structure or union
+lSLF07#2@84"Compile /Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.m388202521#388202521#0(1315"In file included from /Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.h:10,                 from /Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.m:9:/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.h:16: error: expected specifier-qualifier-list before 'window'/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.h:17: error: expected specifier-qualifier-list before '*' tokenIn file included from /Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.m:9:/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.h:13: error: expected specifier-qualifier-list before 'COWindowController'/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.h:16: error: expected specifier-qualifier-list before 'COWindowController'/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.m:14: error: no declaration of property 'window' found in the interface/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.m: In function '-[CellOutlineAppDelegate applicationDidFinishLaunching:]':/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.m:21: error: request for member 'window' in something not a structure or union6(4@49"Expected specifier-qualifier-list before 'window'388202521#205#128#3(7@98"In file included from /Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.m388202521#18446744073709551615#0#0(6@76"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.m387511570#9#0#9#0#0"0(7@98"In file included from /Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.h388202521#18446744073709551615#0#0(6@76"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.h387511639#10#0#10#0#0"0(13@119"Expected specifier-qualifier-list before 'window' in /Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.h388202521#18446744073709551615#0#0(6@66"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.h387524410#16#0#16#0#0"0(6@66"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.h387524410#16#0#16#0#19"expected * before *0(4@50"Expected specifier-qualifier-list before '*' token388202521#333#129#3(7@98"In file included from /Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.m388202521#18446744073709551615#0#0(6@76"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.m387511570#9#0#9#0#0"0(7@98"In file included from /Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.h388202521#18446744073709551615#0#0(6@76"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.h387511639#10#0#10#0#0"0(13@120"Expected specifier-qualifier-list before '*' token in /Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.h388202521#18446744073709551615#0#0(6@66"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.h387524410#17#0#17#0#0"0(6@66"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/COMainWindow.h387524410#17#0#17#0#19"expected * before *0(4@61"Expected specifier-qualifier-list before 'COWindowController'388202521#564#150#2(7@98"In file included from /Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.m388202521#18446744073709551615#0#0(6@76"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.m387511570#9#0#9#0#0"0(13@141"Expected specifier-qualifier-list before 'COWindowController' in /Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.h388202521#18446744073709551615#0#0(6@76"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.h387511639#13#0#13#0#0"0(6@76"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.h387511639#13#0#13#0#19"expected * before *0(4@61"Expected specifier-qualifier-list before 'COWindowController'388202521#714#150#2(7@98"In file included from /Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.m388202521#18446744073709551615#0#0(6@76"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.m387511570#9#0#9#0#0"0(13@141"Expected specifier-qualifier-list before 'COWindowController' in /Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.h388202521#18446744073709551615#0#0(6@76"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.h387511639#16#0#16#0#0"0(6@76"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.h387511639#16#0#16#0#19"expected * before *0(4@58"No declaration of property 'window' found in the interface388202521#864#147#0(6@76"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.m387511570#14#0#14#0#0"0(4@65"Request for member 'window' in something not a structure or union388202521#1161#154#0(6@76"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.m387511570#21#0#21#0#0"0(0#0#76"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.m8605954592#1731"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-generated-files.hmap" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-own-target-headers.hmap" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-all-target-headers.hmap" -iquote "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-project-headers.hmap" "-F/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/include" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/DerivedSources/x86_64" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/DerivedSources" -include /var/folders/mt/mtr-q2fRHwKtog+hiX7YUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CellOutline_Prefix-bhcwswpyqdhoorbsuhqwziylvxfm/CellOutline_Prefix.pch -c "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutlineAppDelegate.m" -o "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/CellOutlineAppDelegate.o"1#
+
+CCompileC build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/main.o "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s388202521.121228
+e388202521.323870
+r1
+xCompileC
+xbuild/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/main.o
+x/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/johnpresley/CocoaBook/Chapter 10/CellOutline/main.m388202521#388202521#0(0"0(0#0#58"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/main.m8600742080#1695"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-generated-files.hmap" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-own-target-headers.hmap" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-all-target-headers.hmap" -iquote "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-project-headers.hmap" "-F/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/include" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/DerivedSources/x86_64" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/DerivedSources" -include /var/folders/mt/mtr-q2fRHwKtog+hiX7YUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CellOutline_Prefix-bhcwswpyqdhoorbsuhqwziylvxfm/CellOutline_Prefix.pch -c "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/main.m" -o "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/Objects-normal/x86_64/main.o"0#
+
+CCompileXIB "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellWindow.xib"
+s388202512.858567
+e388202513.141967
+r1
+xCompileXIB
+x/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellWindow.xib
+lSLF07#2@25"CompileXIB CellWindow.xib388202512#388202513#0(0"0(0#0#66"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellWindow.xib8605871200#389"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/CellWindow.nib" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellWindow.xib" --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCompileXIB "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/English.lproj/MainMenu.xib"
+s388202512.620593
+e388202513.140486
+r1
+xCompileXIB
+x/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib388202512#388202513#0(0"0(0#0#78"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/English.lproj/MainMenu.xib8604158816#413"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/English.lproj/MainMenu.nib" "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/English.lproj/MainMenu.xib" --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCopyStringsFile "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+s388202512.596462
+e388202512.858480
+r1
+xCopyStringsFile
+x/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings388202512#388202512#0(0"0(0#0#83"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/English.lproj/InfoPlist.strings8605739488#399"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Resources/English.lproj"0#
+
+CLd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/MacOS/CellOutline" normal x86_64
+r0
+
+CProcessInfoPlistFile "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Info.plist" CellOutline-Info.plist
+s388202512.541062
+e388202512.596331
+r1
+xProcessInfoPlistFile
+x/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Info.plist
+xCellOutline-Info.plist
+lSLF07#2@30"Process CellOutline-Info.plist388202512#388202512#0(0"0(0#0#74"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutline-Info.plist7596574718659685376#367"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    builtin-infoPlistUtility CellOutline-Info.plist -genpkginfo "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app/Contents/Info.plist"0#
+
+CProcessPCH /var/folders/mt/mtr-q2fRHwKtog+hiX7YUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CellOutline_Prefix-bhcwswpyqdhoorbsuhqwziylvxfm/CellOutline_Prefix.pch.gch CellOutline_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s388202513.142113
+e388202521.120849
+r1
+xProcessPCH
+x/var/folders/mt/mtr-q2fRHwKtog+hiX7YUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CellOutline_Prefix-bhcwswpyqdhoorbsuhqwziylvxfm/CellOutline_Prefix.pch.gch
+xCellOutline_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile CellOutline_Prefix.pch388202513#388202521#0(0"0(0#0#74"/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutline_Prefix.pch8604531488#1582"    cd "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-generated-files.hmap" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-own-target-headers.hmap" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-all-target-headers.hmap" -iquote "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/CellOutline-project-headers.hmap" "-F/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/include" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/DerivedSources/x86_64" "-I/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/CellOutline.build/Debug/CellOutline.build/DerivedSources" -c "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/CellOutline_Prefix.pch" -o /var/folders/mt/mtr-q2fRHwKtog+hiX7YUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CellOutline_Prefix-bhcwswpyqdhoorbsuhqwziylvxfm/CellOutline_Prefix.pch.gch0#
+
+CTouch "/Users/johnpresley/CocoaBook/Chapter 10/CellOutline/build/Debug/CellOutline.app"
+r0
+

@@ -1,0 +1,4 @@
+/Users/johnpresley/CocoaBook/CellOutline/COMainWindow.m: In function '-[COMainWindow polygonAsString:cellNum:]':
+/Users/johnpresley/CocoaBook/CellOutline/COMainWindow.m:116: warning: local declaration of 'p' hides instance variable
+/Users/johnpresley/CocoaBook/CellOutline/COMainWindow.m: In function '-[COMainWindow polygonListAsString:]':
+/Users/johnpresley/CocoaBook/CellOutline/COMainWindow.m:130: warning: local declaration of 'p' hides instance variable
