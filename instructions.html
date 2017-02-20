@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> Instructions for Volume Measurements </title>
+
+<style>
+
+</style>
+
+</head>
+
+
+<body>
+
+<h1> Outline of Procedure </h1>
+
+I.  Acquire experimental and calibration image z-stacks
+II. Convert images to PGM
+III. Project and background correct all z-stacks
+IV. Compute calibration (calibration images -- boundaries not needed)
+V. Define cell boundaries
+VI. Using calibration value, analyze images
+VII.  Assign droplets and any other flurescence information to cells using boundaries
+
+<h1> Details </h1>
+
+<h2> I. Acquire experimental and calibration image z-stacks </h2>
+
+The first step is to acquire confocal z-stacks of your experimental cells.  In addition, you will need to acquire z-stacks of calibration samples, which should be cells treated using a standard condition to generate large lipid droplets. All images must be taken under exactly the same conditions (gain, laser power, pinhole etc) and in a single session.  It is best to first give the microscope one hour to warm up (to minimize laser variation etc).  Take a set of images of the calibration samples at the beginning of the session and another set at the end.  Experimental samples will be acquired in between.  This will control for drift in any of the microscope settings. It is important that all z-stacks traverse the full depth of the cells.  If not, lipid droplet brightness will be underestimated on the side of the cell where imaging was truncated.
+
+Deconvolution wide-field systems may be suitable as well, provided relative image intensities are preserved.  It will be important to verify a linear relationship between lipid droplet fluorescence and volume over some reasonable range.  We have not tested, so try this at your own risk and carefully verify!  
+
+
+<h2> II. Convert images to pgm </h2>
+
+Images can be converted to pgm using ImageJ or other common image processing programs.  We normally use the program convert in the open-source ImageMagick package.  Shell scripts which run the convert program on all or selected tiff images in the same directory facilitate convienent mass conversions.  The shell script convPGM is included, and can be easily modified for other conversions.  Use is as follows to convert all samples in a directory:
+
+<pre><code>
+
+convPGM *.tif
+
+</pre></code>
+
+<h2> III. Project and background correct all z-stacks </h2>
+
+The "project" program can be used to project z-stacks while background correcting them at the same time.  It is designed for easy incorporation into shell scripts to handle large numbers of files at once.  project assumes that each z-stack has been converted into a series of separate pgm images (one per slice) with the following format  name000.pgm;  name001.pgm,  name002.pgm, etc . . . The format is a name (arbitrary characters), an index with a fixed number of zero-padded digits (default is three digits, but other lengths are possible), followed by a period and an extension (default is "pgm").  project needs the name, the number of digits for the index and the extension.  It does not need to know how many images there are in the series as it will figure that out on its own.  parameters and explanation are as follows
+
+<pre><code>
+
+project --root root [--first 0 --last 12 --digits 3 --nomedian ] --extension ppm --neighborhood 120 --outputfile projected.pgm --saturation 65535 --warnimg saturation.pgm
+
+--root root    # Specify root name for series.  would be "name" for above example
+--first 2      # Optional specification of first image in series.  The default 
+               # if not specified is "0"
+--last 12      # Optional specfication of last image in series
+               # Only set this when you don't want to use all the images
+--digits 4     # Optional specification of number of digits in index.
+               # This defaults to "3" if not set.  You will need to set this if your
+               # total number of digits is different from "3"
+--nomedian      # Use this if you don't want to background correct. For LD analysis you
+                # normally do want to correct, but there are other uses.
+--extension pgm # Extension to use.  Not optional.
+--neighborhood  # Neighborhood size for background correction.  Should be larger than the 
+                # diameter of a cluster of lipid droplets.  120 usual value.
+--outputfile projected_proj.pgm   # Name of file to write output to.  These are the files
+                                  # you will want to analyze later.
+--saturation  4095  # Value to consider saturated in input images.  This defaults to -1,
+                    # which means no check is done.
+--warnimg name_sat.pgm   # Image which marks any values on the projection which might have
+                         # been compromised by saturation.  This is an optional parameter
+                         # and will only be used if a positive value has been set with 
+                         # --saturation.  In this case, all input images are checked.  The
+                         # value 0 on the output image indicates the pixel wasn't saturated
+                         # in any input images.  The value 1 indicates it was, and therefore
+                         # the final value may be too low.  This will be noted by later
+                         # quantitation programs.
+
+[Example use in batch file]  
+
+project_file() {
+    parm=$1
+    name=${parm/FRFP/GFP}
+    name=${name/w18/w26}
+    name2=${name/GFP/GFP0000.pgm}
+    echo $name
+    echo $name2
+    if [ -a $name2 ]
+       then
+         project --root ${name} --extension pgm --digits 4 --neighborhood 60 --warnimg ${name}_\
+sat.pgm --saturation 65535 --outputfile ${name}_proj.pgm
+       else
+         echo $name " does not exist"
+    fi
+}
+
+
+project_file 0hr1_a_w18_FRFP
+project_file 0hr1_b_w18_FRFP
+project_file 0hr1_c_w18_FRFP
+project_file 0hr1_d_w18_FRFP
+
+
+</pre></code>
+
+<h2> IV. Compute calibration (calibration images -- boundaries not needed) </h2>
+
+This step has an automated and a manual step.  The automated step uses the program "calibrate_volume" to read in one or more calibration files (should have big lipid droplets).  This program identifies sufficiently round lipid droplets and computes both a fit radius and a total fluorescence.  This is written into a text file "datafile.dat" in the example below.  A second text file (specified under "--imgdat") contains pixel values of each spot in ascii format.  This second file is not needed for anything.  It was originally to allow 2D fits later, but these are computationally expensive and so far don't seem to be better than the described boundary fits.
+
+<pre><code>
+
+calibrate_volume --cal img1.pgm img2.pgm img3.pgm --data datafile.dat --imgdat spotcutouts.dat [--warn img1_sat.pgm img2_sat.pgm img3_sat.pgm --thresh -1 fract 0.5 --minradius 3.0 ]
+
+--cal img1.pgm img2.pgm  # one or more images.  Data from the entire list will be merged
+                         # into the output
+[--warn img1_sat.pgm img2_sat.pgm]  # optional images created by project.  Pixel value of 0 
+                                    # indicates no saturation.  Higher pixel value indicates
+                                    # that pixel is saturated for at least one image in stack
+--data img1_2.dat                   # file to write output into.  This is what you'll fit
+                                    # later.
+--imgdat img1_2_cutout.dat          # Information on each spot in image.  Currently, not used.
+--thresh 128            # Optional threshold.  Default is -1, which causes autodefinition
+                        # of threshold at 10% of brightest pixel.  Positive values indicate
+                        # absolute pixel value to threshold
+--fract 0.5             # Optional fraction of brightest pixel to locally threshold.  Default
+                        # is 0.5, or full-width half-maximum.  
+--minradius 3.0         # Optional minimum radius for droplet in pixels to include in analysis.
+                        #  Defaults to 3 pixels if not set.
+
+Example call:
+
+calibrate_volume --cal 0calb1_b_proj.pgm --data 0calb1_b.dat --imgdat 0calb1_b.imgdat
+
+Example use in a batch file:
+
+[Batch]
+
+calb() {
+    name=${1/.pgm/}
+    echo $name
+    calibrate_volume --cal $1 --data ${name}_dat.dat --imgdat ${name}_imgdat.dat
+}
+
+calb 0calb1_b_proj.pgm
+#exit 0                                                                                         
+calb calb1_c_proj.pgm
+calb calb1_d_proj.pgm
+
+[\Batch]
+
+</pre></code>
+
+The next step is to compute calibration values.  This can be done in principle completely automatically, but we are ****
+
+<h2> V. Define cell boundaries </h2>
+
+For each experimental image you will need to create a file defining the cell boundaries.  How you create the file is not important, but the attached program is one way.  The file should have the format as follows:
+
+<pre><code>
+
+cell1 274 136
+cell1 282 171
+cell1 318 190
+cell1 334 210
+cell1 339 210
+cell1 390 251
+cell1 446 251
+cell1 479 219
+cell1 489 177
+cell1 493 123
+cell1 485 56
+cell1 384 29
+cell1 268 43
+cell1 218 87
+cell1 222 131
+cell1 222 131
+cell2 185 252
+cell2 165 226
+cell2 129 174
+cell2 164 134
+cell2 264 157
+cell2 358 230
+cell2 402 262
+cell2 375 312
+cell2 346 374
+cell2 297 368
+
+</pre></code>
+
+There can be any number of cells in the image.  Points are defined x,y pairs in a sequence defiing a polygon enclosing the cell.  The final point will be considered to be joined to the first point to complete the polygon.  There are no checks on whether cells overlap, so be careful.
+
+NOTE:  We have found in practice that if you wish to use the lipid-loaded image (Nile Red or such) a square root lookup table makes it vastly easier to see cell boundaries.  The attached batch file convSqrtJPEG repeatedly runs the program sqrt_img and the ImageMagick program convert on the images to produce sqrt_lutted JPEGs which can be loaded by the supplied Cocoa program CellBoundaries.  If you determine cell boundaries using your own program (e.g., MatLab) you may be directly able to visualize the images with a square root lookup table or with Gamma set to see dim structures (e.g., non-lipid droplet labeling).
+
+<h2> VI. Using calibration value, analyze images. </h2>
+
+First step is to run sum_volume on the lipid droplet channel.
+
+<pre><code>
+
+sum_volume --calValue 322.2 --image image.pgm --data datafile.dat [--thresh -1 fract 0.5 --minradius 3.0 --mode fwhm ]
+
+--calValue 1412.9  # The fluorescence / pixel determined by calibrate_volume on calibration
+                   # standards.
+                   # This must be the SAME for all measured images in your set
+
+--image image.pgm  # image (only one) to be analyzed
+                   
+--data image.dat   # File to write output data to
+
+--pixelSize 0.1    # Size of pixel in units of microns.  Must be specified, as
+                   # a default value would be dangerous.
+
+[--thresh -1 ]     # Optional threshold value.  
+                   # Default of -1 indicates 10% of highest pixel detected in image.
+                   # Any positive number indicates use that number as threshold.
+                   # 0 is no threshold.  However, zero pixels will still separate objects.
+
+[--fract 0.5 ]     # Locally threshold object at this fraction of maximum pixel in object
+                   # 0.5 (FWHM) is default if not explicitly set otherwise
+
+[--minradius 3.0 ] # Minimum radius in pixels to accept for droplet.
+                   # Default is 3.0 pixels.  Can be set to other values
+
+[--mode fwhm]      # Doesn't do anything at this time.
+
+</pre></code>
+
+Second step is to pool all this data.  Use sum_cells.
+
+*** colorJoin probably needs update
+*** also update colorSplit for consistency
+
+Multiple runs of sum_cells can write to the SAME output file. Given the cell boundaries, it assigns lipid droplet fluorescence and volume to cells, and also quantitates raw fluorescence in all channels (useful if something like GFP is in some of the cells and you need to know how much).
+
+<pre><code>
+
+sum_cells --image img.pgm --out all_that_data.dat --boundaries img.poly --spotfile img.dat
+
+--image img.pgm   # Input image.  Can be greyscale (pgm) or three-channel (ppm).  
+                  # If you run sum_cells multiple times with the same output file
+                  # make sure images all have the SAME number of channels, otherwise
+                  # the columns in the output data file will get jumbled. 
+
+--out all_that_data.dat   # Output data written to this file, one row per cell.
+                          # Usually, you will use one output file for all the images
+                          # taken under a single experimental condition (e.g., untransfected
+                          # control might include 45 images and associated cell boundaries
+                          # for a total of 185 cells -- all these could be written out to
+                          # a single data file). 
+
+[--boundaries img.poly]   # Cell boundaries as text files written in the simple format 
+                          # described above.  We usually use the extension ".poly" for
+                          # cell-enclosing polygon as a convention.  This file is optional.
+                          # If omitted, the entire image will be quantitated, but no
+                          # additional columns with cell-specific information will be 
+                          # included.
+
+--spotfile img.dat        # Output file produced by sum_volume applied to the current image.
+
+[--mode xx]               # Not currently used.  This would allow various image pretreatments
+                          # prior to analysis.
+
+</pre></code>
+
+<h1> Appendices </h1>
+
+</body>
+
+</html>
